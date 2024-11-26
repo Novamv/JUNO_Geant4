@@ -1,0 +1,20 @@
+/control/verbose 2
+/run/verbose 2
+/event/verbose 2
+/tracking/verbose 2
+/process/eLoss/StepFunction 0.2 0.1
+/process/optical/verbose 1
+#/process/optical/processActivation Cerenkov false
+
+/random/setSeeds 16315 5059
+
+#hadronic physics: none HP
+
+/gun/particle e-
+/gun/energy 1. MeV
+/gun/position 0. 0. 0. cm
+
+#/sphere/gun/isotropic on
+
+
+/run/beamOn 1 #max 10000
